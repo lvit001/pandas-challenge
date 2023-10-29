@@ -36,10 +36,26 @@ Average math and reading scores were calculated by taking the mean of the math_s
 ```
 ## Highest-Performing Schools (by % Overall Passing)
 ```
-- X
-- X
-- X
-- X
-- X
-- X
+- Sorted the new per_school_summary data frame from highest to lowest in the % overall passing column by using the .sort_values function and setting ascending = False to descend through the values.
 ```
+## Bottom-Performing Schools (by % Overall Passing)
+```
+- Sorted then per_school_summary data frame from lowest to highest in the % overall passing column by using the .sort_values function and using the default ascending=True setting.
+```
+## Math Scores by Grade
+```
+- Used the provided code to separate the school data by grade level.
+- Then found the average math score by using the groupby function on the school_name column and finding the mean of math scores for each grade level variable
+- Created a dictionary of all of the grade levels and their average math scores by school. Then used pd.DataFrame to create a data frame with the dictionary.
+- Used the provided code to remove the title of the index column.
+- Displayed the new math_scores_by_grade data frame.
+```
+## Reading Scores by Grade
+```
+- Used the provided code to separate the school data by grade level.
+- Then found the average reading score by using the groupby function on the school_name column and finding the mean of reading scores for each grade level variable
+- Created a dictionary of all of the grade levels and their average reading scores by school. Then used pd.DataFrame to create a data frame with the dictionary.
+- Used the provided code to remove the title of the index column.
+- Displayed the new reading_scores_by_grade data frame.
+```
+

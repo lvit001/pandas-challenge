@@ -62,7 +62,8 @@ Average math and reading scores were calculated by taking the mean of the math_s
 ```
 - Used the code provided to create bins and labels for school spending ranges.
 - Used the provided code to make a copy of the per_school_summary data frame.
-- Found code on StackOverflow to convert the per school budget column from an object to a float variable to be able to slice it with further code. Link to code found here: (https://stackoverflow.com/questions/32464280/how-to-convert-currency-column-with-and-to-numbers)
+- Found code on StackOverflow to convert the per school budget column from an object to a float variable to be able to slice it with further code.
+- Link to code found here: [StackOverflow](https://stackoverflow.com/questions/32464280/how-to-convert-currency-column-with-and-to-numbers)
 - X
 - X
 - X

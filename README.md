@@ -71,3 +71,18 @@ The link to code to convert from str to float found here: https://stackoverflow.
 - Created a dictionary that included the required data and made this into a data frame using pd.DataFrame. 
 - Displayed the new data frame that grouped by spending ranges and looked at average test scores and passing %s for each range.
 ```
+## Scores by School Size
+```
+- Used the code provided to create bins and labels for school size ranges.
+- Used the pd.cut function to slice the school size column by the labels created
+- Displayed the data with the new School Size column.
+- Used the provided code to calculate averages for the scores and % columns.
+- Created a dictionary that included the required data and made this into a data frame using pd.DataFrame. 
+- Displayed the new data frame that grouped by school size and looked at average test scores and passing %s for each range.
+```
+## Scores by School Type
+```
+- Used the provided code to calculate averages for the scores and % columns grouping by school type.
+- Created a dictionary that included the required data and made this into a data frame using pd.DataFrame. 
+- Displayed the new data frame that grouped by school type and looked at average test scores and passing %s for each range.
+```
